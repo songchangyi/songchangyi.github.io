@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head>
-　　<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-　　<title>宋昌意的个人主页</title>
-</head>
-<body>
-　　这里我们将展示宋昌意的简历
-</body>
-</html>
+---
+欢迎来到宋昌意的个人主页
+---
+<h2>Vicious HomePage</h2>
+<p>个人简历</p>
+<ul>
+　　{% for post in site.posts %}
+　　　　<li>2017年2月28日<a href="{{ site.baseurl }}{{ post.url }}">最新个人简历</a></li>
+　　{% endfor %}
+</ul>
