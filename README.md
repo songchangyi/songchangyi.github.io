@@ -18,7 +18,7 @@ Dance (Break dance), Swimming, Travel, Football, Volleyball, Hiking
 [Link](url) and ![Image](src)
 ```
 
-For more details see [CV_ChangyiSONG](https://guides.github.com/features/mastering-markdown/).
+For more details see [CV_ChangyiSONG_EN](https://guides.github.com/features/mastering-markdown/) or [CV_ChangyiSONG_FR](https://guides.github.com/features/mastering-markdown/).
 
 ### IT Skills
 - Programming Languages : Java, Python, SQL, Scala, C++, JavaScript, HTML, CSS
