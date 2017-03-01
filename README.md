@@ -1,37 +1,40 @@
-## Welcome to GitHub Pages
+## Welcome to my Pages
 
-You can use the [editor on GitHub](https://github.com/songchangyi/songchangyi.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hobbies:
+Dance (Break dance), Swimming, Travel, Football, Volleyball, Hiking
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Latest projects
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+- Improving Orange E-mail service, Paris, France (08/2016 - 01/2017)
 
-- Bulleted
-- List
+- Facial recognition, Telecom Bretagne (02/2016 - 06/2016)
 
-1. Numbered
-2. List
+- Drafted a specification of the application protocols, Telecom Bretagne (02/2016 - 04/2016)
 
-**Bold** and _Italic_ and `Code` text
+- Designed sports gambling software, Telecom Bretagne (09/2015 - 12/2015)
 
 [Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details see [CV_ChangyiSONG](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### IT Skills
+Programming Languages : Java, Python, SQL, Scala, C++, JavaScript, HTML, CSS
+Big Data              : Hadoop, Elasticsearch, Logstash, Kibana, Grafana, Shell
+Softwares             : Linux/Windows OS, Visual Studio, Eclipse, NetBeans, VMware, Git
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/songchangyi/songchangyi.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Education
+```markdown
+Telecom Bretagne, Brest, France (From 09/2015)
+Engineering Degree, major in Computer Science and Networks
+```
+```markdown
+University of Electronic Science and Technology of China (UESTC), Chengdu, China (09/2011 - 06/2015)
+Bachelor's Degree in the Internet of Things
+```
+### My Contact
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Feel free to contact me:
+changyi.song@telecom-bretagne.eu / changyi.song@imt-atlantique.net
