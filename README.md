@@ -15,7 +15,6 @@ Dance (Break dance), Swimming, Travel, Football, Volleyball, Hiking
 
 - Designed sports gambling software, Telecom Bretagne (09/2015 - 12/2015)
 
-[Link](url) and ![Image](src)
 ```
 
 For more details see [CV_ChangyiSONG_EN](https://guides.github.com/features/mastering-markdown/) or [CV_ChangyiSONG_FR](https://guides.github.com/features/mastering-markdown/).
@@ -32,6 +31,11 @@ Engineering Degree, major in Computer Science and Networks
 
 University of Electronic Science and Technology of China (UESTC), Chengdu, China (09/2011 - 06/2015)
 Bachelor's Degree in the Internet of Things
+```
+### Other activities
+```markdown
+Volunteer teacher at the Huili Middle School of Sichuan Province, China (2013)
+Voluntary youth leader accompanying school children, Chengdu, China (2012)
 ```
 ### My Contact
 
