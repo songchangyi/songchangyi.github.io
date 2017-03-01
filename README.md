@@ -19,7 +19,7 @@ Break dance, Swimming, Travel, Football, Volleyball, Hiking
 
 ```
 
-For more details please contact me to get my resume (CV_ChangyiSONG_EN / CV_ChangyiSONG_FR).
+For more details please contact me to get my resume (English version / French version).
 
 ### CS Skills
 ```markdown
