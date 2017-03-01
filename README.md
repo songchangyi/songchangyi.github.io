@@ -19,7 +19,7 @@ Break dance, Swimming, Travel, Football, Volleyball, Hiking
 
 ```
 
-For more details see [CV_ChangyiSONG_EN](https://guides.github.com/features/mastering-markdown/) or [CV_ChangyiSONG_FR](https://guides.github.com/features/mastering-markdown/).
+For more details please contact me to get my resume (CV_ChangyiSONG_EN / CV_ChangyiSONG_FR).
 
 ### CS Skills
 ```markdown
