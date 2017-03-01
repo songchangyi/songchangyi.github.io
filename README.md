@@ -21,9 +21,9 @@ Dance (Break dance), Swimming, Travel, Football, Volleyball, Hiking
 For more details see [CV_ChangyiSONG](https://guides.github.com/features/mastering-markdown/).
 
 ### IT Skills
-Programming Languages : Java, Python, SQL, Scala, C++, JavaScript, HTML, CSS
-Big Data              : Hadoop, Elasticsearch, Logstash, Kibana, Grafana, Shell
-Softwares             : Linux/Windows OS, Visual Studio, Eclipse, NetBeans, VMware, Git
+- Programming Languages : Java, Python, SQL, Scala, C++, JavaScript, HTML, CSS
+- Big Data              : Hadoop, Elasticsearch, Logstash, Kibana, Grafana, Shell
+- Softwares             : Linux/Windows OS, Visual Studio, Eclipse, NetBeans, VMware, Git
 
 ### Education
 ```markdown
