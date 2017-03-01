@@ -29,8 +29,7 @@ For more details see [CV_ChangyiSONG](https://guides.github.com/features/masteri
 ```markdown
 Telecom Bretagne, Brest, France (From 09/2015)
 Engineering Degree, major in Computer Science and Networks
-```
-```markdown
+
 University of Electronic Science and Technology of China (UESTC), Chengdu, China (09/2011 - 06/2015)
 Bachelor's Degree in the Internet of Things
 ```
