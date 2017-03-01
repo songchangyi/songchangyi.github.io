@@ -1,7 +1,9 @@
 ## Welcome to my Pages
 
-My hobbies:
-Dance (Break dance), Swimming, Travel, Football, Volleyball, Hiking
+### My hobbies
+```markdown
+Break dance, Swimming, Travel, Football, Volleyball, Hiking
+```
 
 ### Latest projects
 
@@ -19,10 +21,12 @@ Dance (Break dance), Swimming, Travel, Football, Volleyball, Hiking
 
 For more details see [CV_ChangyiSONG_EN](https://guides.github.com/features/mastering-markdown/) or [CV_ChangyiSONG_FR](https://guides.github.com/features/mastering-markdown/).
 
-### IT Skills
+### CS Skills
+```markdown
 - Programming Languages : Java, Python, SQL, Scala, C++, JavaScript, HTML, CSS
 - Big Data              : Hadoop, Elasticsearch, Logstash, Kibana, Grafana, Shell
 - Softwares             : Linux/Windows OS, Visual Studio, Eclipse, NetBeans, VMware, Git
+```
 
 ### Education
 ```markdown
@@ -38,6 +42,7 @@ Volunteer teacher at the Huili Middle School of Sichuan Province, China (2013)
 Voluntary youth leader accompanying school children, Chengdu, China (2012)
 ```
 ### My Contact
-
+```markdown
 Feel free to contact me:
 changyi.song@telecom-bretagne.eu / changyi.song@imt-atlantique.net
+```
