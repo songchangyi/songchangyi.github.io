@@ -1,6 +1,6 @@
 ## Welcome to my Pages
 
-### My hobbies
+### Hobbies
 ```markdown
 Break dance, Swimming, Travel, Football, Volleyball, Hiking
 ```
@@ -41,7 +41,7 @@ Bachelor's Degree in the Internet of Things
 Volunteer teacher at the Huili Middle School of Sichuan Province, China (2013)
 Voluntary youth leader accompanying school children, Chengdu, China (2012)
 ```
-### My Contact
+### Contact
 ```markdown
 Feel free to contact me:
 changyi.song@telecom-bretagne.eu / changyi.song@imt-atlantique.net
