@@ -6,7 +6,7 @@ description: You’ll find this post in your `_posts` directory. Go ahead and ed
 img: scrapy.jpg # Add image post (optional)
 tags: [Blog, Meditation]
 author: # Add name author (optional)
-
+---
 
 ```python
 from urllib import request
