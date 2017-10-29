@@ -3,7 +3,7 @@ layout: post
 title: 使用爬虫爬取花千骨小说
 date: 2017-10-29
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: scrapy.jpg # Add image post (optional)
+img: post-6.jpg # Add image post (optional)
 tags: [Blog, Meditation]
 author: # Add name author (optional)
 ---
