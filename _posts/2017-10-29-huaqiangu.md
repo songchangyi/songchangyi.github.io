@@ -4,7 +4,7 @@ title: 使用爬虫爬取花千骨小说
 date: 2017-10-29
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: post-6.jpg # Add image post (optional)
-tags: [Blog, Meditation]
+tags: [Blog, Python]
 author: # Add name author (optional)
 ---
 
@@ -266,3 +266,4 @@ if __name__ == '__main__':
             f.write(download_soup_texts)
             f.write('\n\n')
     f.close()
+```
