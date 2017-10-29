@@ -1,18 +1,31 @@
-title: My personal github page - Changyi SONG
+title: My personal page - Changyi SONG
 email: pqz346292062@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Welcome to the personal page of Mr SONG Changyi.
 permalink: ':title/'
-baseurl: "/changyi-blog" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/changyi-page" # the subpath of your site, e.g. /blog
+url: "https://songchangyi.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Author settings
+author: Changyi SONG
+about-author: My name is Changyi. I’m a junior data scientist and bboy who’s been dansing for over 6 years.
+
+# Contact links
+email: # Add your Email address
+phone: # Add your Phone number
+website: # Add your website, do not add http://
+linkedin: # Add your Linkedin handle
+github: songchangyi # Add your Github handle
+twitter:  # Add your Twitter handle
+facebook: # Add your Facebook handle
+instagram: # Add your Instagram handle
+pinterest: # Add your Pinterest handle
 
 # Newsletter
 mailchimp: # Add your MailChimp form identifier.
 
 # Disqus
-discus_identifier: mr-brown # Add your discus identifier
+discus_identifier: # Add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
