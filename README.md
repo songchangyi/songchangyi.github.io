@@ -1,48 +1,32 @@
-## Welcome to my Pages
+# Adam Blog is a minimal clear theme for Jekyll
 
-### Hobbies
-```markdown
-Break dance, Swimming, Travel, Football, Volleyball, Hiking
-```
+![Adam Blog - Imac](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-blog-imac.jpg?raw=true)
 
-### Latest projects
+## Demo
 
-```markdown
+Check the theme in action [Demo](https://artemsheludko.github.io/adam-blog/)
 
-- Improving Orange E-mail service, Paris, France (08/2016 - 01/2017)
+The main page would look like this:
 
-- Facial recognition, Telecom Bretagne (02/2016 - 06/2016)
+![Main page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-home-page.jpg?raw=true)
 
-- Drafted a specification of the application protocols, Telecom Bretagne (02/2016 - 04/2016)
+The post page would look like this:
 
-- Designed sports gambling software, Telecom Bretagne (09/2015 - 12/2015)
+![Post page preview](https://github.com/artemsheludko/adam-blog/blob/master/assets/img/adam-post-example.jpg?raw=true)
 
-```
+## Features
 
-For more details please contact me to get my resume (English version / French version).
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [MailChimp](https://mailchimp.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- [Search](https://github.com/christian-fei/Simple-Jekyll-Search)
 
-### CS Skills
-```markdown
-- Programming Languages : Java, Python, SQL, Scala, C++, JavaScript, HTML, CSS
-- Big Data              : Hadoop, Elasticsearch, Logstash, Kibana, Grafana, Shell
-- Softwares             : Linux/Windows OS, Visual Studio, Eclipse, NetBeans, VMware, Git
-```
+## Installation:
 
-### Education
-```markdown
-Telecom Bretagne, Brest, France (From 09/2015)
-Engineering Degree, major in Computer Science and Networks
+Fork the ``master`` branch and delete ``gh-pages`` branch in it. This is important because ``gh-pages`` branch is used here only to host the blog. You should be using the master branch as the source and create a fresh ``gh-pages`` branch.
 
-University of Electronic Science and Technology of China (UESTC), Chengdu, China (09/2011 - 06/2015)
-Bachelor's Degree in the Internet of Things
-```
-### Other activities
-```markdown
-Volunteer teacher at the Huili Middle School of Sichuan Province, China (2013)
-Voluntary youth leader accompanying school children, Chengdu, China (2012)
-```
-### Contact
-```markdown
-Feel free to contact me:
-changyi.song@telecom-bretagne.eu / changyi.song@imt-atlantique.net
-```
+### License
+
+GNU General Public License v3.0
