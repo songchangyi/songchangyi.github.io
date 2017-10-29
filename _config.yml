@@ -6,15 +6,11 @@ feed: /atom.xml
 author_info: <a href="http://songchangyi.com/">Changyi</a>
 
 # Contact links
-email: # Add your Email address
-phone: # Add your Phone number
-website: # Add your website, do not add http://
-linkedin: # Add your Linkedin handle
+email: pqz346292062@gmail.com # Add your Email address
+linkedin: SONG Changyi # Add your Linkedin handle
 github: songchangyi # Add your Github handle
-twitter:  # Add your Twitter handle
-facebook: # Add your Facebook handle
-instagram: # Add your Instagram handle
-pinterest: # Add your Pinterest handle
+facebook: Changyi Song # Add your Facebook handle
+instagram: Changyi Song # Add your Instagram handle
 
 # Paginate
 paginate: 6
