@@ -1,6 +1,7 @@
 permalink: /:title
 
 author: Changyi SONG
+author-pic: me.jpg
 title: My personal github page - Changyi SONG
 url: http://songchangyi.com
 feed: /atom.xml
