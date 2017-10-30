@@ -1,12 +1,14 @@
 ---
 layout: post
-title: 使用爬虫爬取花千骨小说
+title: 学习笔记-使用爬虫爬取花千骨小说
 date: 2017-10-29
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 img: post-6.jpg # Add image post (optional)
 tags: [Blog, Python]
 author: # Add name author (optional)
 ---
+
+参考药少敏博客：https://segmentfault.com/a/1190000010783635
 
 ```python
 from urllib import request
