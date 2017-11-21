@@ -9,6 +9,9 @@ author: Changyi SONG # Add name author (optional)
 
 ## 0. Flow Diagram
 
+---
+img: Flowgram.PNG
+---
 <div align=center><img width="500" src="/img/Flowgram.PNG"/></div>
 ![Image](/img/Flowgram.PNG)
 
