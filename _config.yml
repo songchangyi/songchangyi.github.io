@@ -4,10 +4,10 @@ author: Changyi SONG
 author-pic: me.jpg
 title: My personal github page - Changyi SONG
 url: http://songchangyi.com
+baseurl: /songchangyi.github.io
 feed: /atom.xml
 author_info: <a href="http://songchangyi.com/">Changyi</a>
 
-baseurl: /songchangyi.github.io
 
 # Contact links
 email: pqz346292062@gmail.com # Add your Email address
