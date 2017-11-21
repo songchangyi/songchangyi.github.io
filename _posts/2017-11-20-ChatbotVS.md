@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 原创博客-Chatbot Using Movie Subtitles
+title: 原创Origin-Chatbot Using Movie Subtitles
 date: 2017-11-19
 img: post-chatbot.jpg # Add image post (optional)
 tags: [Blog, NLP]
