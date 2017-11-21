@@ -7,6 +7,8 @@ url: http://songchangyi.com
 feed: /atom.xml
 author_info: <a href="http://songchangyi.com/">Changyi</a>
 
+baseurl: /songchangyi.github.io
+
 # Contact links
 email: pqz346292062@gmail.com # Add your Email address
 linkedin: SONG Changyi # Add your Linkedin handle
