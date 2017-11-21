@@ -1,8 +1,11 @@
-# Chatbot Using Movie Subtitles
-
-Author: Changyi SONG
-
-Date: 2017/11/19
+---
+layout: post
+title: Chatbot Using Movie Subtitles
+date: 2017-11-19
+img: post-chatbot.jpg # Add image post (optional)
+tags: [Blog, NLP]
+author: Changyi SONG # Add name author (optional)
+---
 
 ## 0. Flow Diagram
 
