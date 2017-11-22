@@ -7,7 +7,6 @@ tags: [Blog, NLP]
 author: Changyi SONG # Add name author (optional)
 ---
 
-<img src="{{ site.baseurl }}/_posts/img/Flowgram.PNG">
 <img src="https://github.com/songchangyi/songchangyi.github.io/tree/master/assets/img/me.jpg">
 
 ## 1. Introduction
