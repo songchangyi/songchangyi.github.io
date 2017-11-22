@@ -33,7 +33,7 @@ The architecture presented here assumes the same prior distributions for input a
 To improve the context sensitivity, the thought vector (i.e. the encoder output) encodes the last two utterances of the conversation up to the current point. To avoid forgetting the context during the answer generation, the thought vector is concatenated to a dense vector that encodes the incomplete answer generated up to the current point. The resulting vector is provided to dense layers that predict the current token of the answer. 
 The algorithm iterates by feeding back the predicted token to the right-hand side input layer of the model shown below.
 
-<img align="center" width="600" src="{{ site.baseurl }}/assets/img/Algorithm.png">
+<img width="600" src="{{ site.baseurl }}/assets/img/Algorithm.png">
 
 The following pseudo code explains the algorithm.
 
@@ -108,7 +108,7 @@ Here the pre-trained model is unnecessary.
 
 As shown below, it is possible to make chat bot in very short lines of code.
 
-<img align="center" width="550" src="{{ site.baseurl }}/assets/img/chatterbot.png">
+<img width="550" src="{{ site.baseurl }}/assets/img/chatterbot.png">
 
 The way to integrate web part and chat part is the same as 2.6.
 ## 4. Chat bot III (integrated with Google API)
