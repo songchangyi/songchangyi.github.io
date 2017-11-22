@@ -33,7 +33,7 @@ The architecture presented here assumes the same prior distributions for input a
 To improve the context sensitivity, the thought vector (i.e. the encoder output) encodes the last two utterances of the conversation up to the current point. To avoid forgetting the context during the answer generation, the thought vector is concatenated to a dense vector that encodes the incomplete answer generated up to the current point. The resulting vector is provided to dense layers that predict the current token of the answer. 
 The algorithm iterates by feeding back the predicted token to the right-hand side input layer of the model shown below.
 
-<img width="600" src="{{ site.baseurl }}/assets/img/Algorithm.png">
+<img align="center" width="600" src="{{ site.baseurl }}/assets/img/Algorithm.png">
 
 The following pseudo code explains the algorithm.
 
@@ -43,7 +43,9 @@ The following pseudo code explains the algorithm.
 30,000 lines of movie conversations were used to train the designed model while it required 100 epochs to reach categorical cross-entropy loss of 0.0394, at the cost of 600 s/epoch running on the FloydHub platform (a public platform for data scientist, https://www.floydhub.com/ ).
 
 Here shows the result of the training logs :
+
 <img width="450" src="{{ site.baseurl }}/assets/img/Training model.png">
+
 It is also suggested to use Glove pre-trained model, which is available on line (https://nlp.stanford.edu/projects/glove/). This algorithm applies transfer learning which is fine-tuned during the training by using a pre-trained word embedding. This transfer-learning model will help us to obtain a better performance.[2]
 
 Find the final model here:
@@ -65,7 +67,7 @@ If some libraries are missing in the environment, use :
 	pip install xxx # xxx for package name
 
 Then we can start chatting with the first chat bot.
-<img src="{{ site.baseurl }}/assets/img/chatbotpy.png">
+<img width="550" src="{{ site.baseurl }}/assets/img/chatbotpy.png">
 
 ### 2.5 Local website
 As suggested in the task statement, a simple web page can make the application more interactive and a python based website is created dedicate to the chat bot.
@@ -106,7 +108,7 @@ Here the pre-trained model is unnecessary.
 
 As shown below, it is possible to make chat bot in very short lines of code.
 
-<img width="550" src="{{ site.baseurl }}/assets/img/chatterbot.png">
+<img align="center" width="550" src="{{ site.baseurl }}/assets/img/chatterbot.png">
 
 The way to integrate web part and chat part is the same as 2.6.
 ## 4. Chat bot III (integrated with Google API)
@@ -130,6 +132,7 @@ Test results from Wechat :
 <img width="400" src="{{ site.baseurl }}/assets/img/chatbotGoogle2.jpg">
 <img width="400" src="{{ site.baseurl }}/assets/img/chatbotGoogle3.jpg">
 <img width="400" src="{{ site.baseurl }}/assets/img/chatbotGoogle4.jpg">
+
 Try to talk with it by scanning the QR-Code.
 
 ## 5. Bibliographies
