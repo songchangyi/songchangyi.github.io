@@ -8,7 +8,7 @@ author: Changyi SONG # Add name author (optional)
 ---
 
 <img src="{{ site.baseurl }}/_posts/img/Flowgram.PNG">
-<img src="https://github.com/songchangyi/songchangyi.github.io/tree/master/_posts/img/Flowgram.PNG">
+<img src="https://github.com/songchangyi/songchangyi.github.io/tree/master/assets/img/me.jpg">
 
 ## 1. Introduction
 Chat bots using AI technique have driven many attentions not only in academic fields but also in business areas. A Chat bot can work as a virtual assistant in customer services, consulting services and smart conversations, etc. Here we are going to develop a chat bot using movie subtitles downloaded from the internet. Since the project is an open-end task, we can analyze it in different aspects or different scopes and multiple solutions are available.
