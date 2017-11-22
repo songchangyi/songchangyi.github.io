@@ -1,14 +1,11 @@
 ---
 layout: post
-title: 原创Origin-Chatbot Using Movie Subtitles
+title: 我的博文My blog-Chatbot Using Movie Subtitles
 date: 2017-11-19
 img: post-chatbot.jpg # Add image post (optional)
 tags: [Blog, NLP]
 author: Changyi SONG # Add name author (optional)
 ---
-
-<img src="https://github.com/songchangyi/songchangyi.github.io/tree/master/assets/img/me.jpg">
-<img src="{{ site.baseurl }}/assets/img/me.jpg">
 
 ## 1. Introduction
 Chat bots using AI technique have driven many attentions not only in academic fields but also in business areas. A Chat bot can work as a virtual assistant in customer services, consulting services and smart conversations, etc. Here we are going to develop a chat bot using movie subtitles downloaded from the internet. Since the project is an open-end task, we can analyze it in different aspects or different scopes and multiple solutions are available.
@@ -34,7 +31,10 @@ https://www.kaggle.com/Cornell-University/movie-dialog-corpus
 ### 2.2 Algorithm 
 The architecture presented here assumes the same prior distributions for input and output words. Therefore, it shares the embedding layer (Glove pre-trained word embedding) between the encoding and decoding processes through the adoption of a new model. 
 To improve the context sensitivity, the thought vector (i.e. the encoder output) encodes the last two utterances of the conversation up to the current point. To avoid forgetting the context during the answer generation, the thought vector is concatenated to a dense vector that encodes the incomplete answer generated up to the current point. The resulting vector is provided to dense layers that predict the current token of the answer. 
-The algorithm iterates by feeding back the predicted token to the right-hand side input layer of the model shown below (see README file).
+The algorithm iterates by feeding back the predicted token to the right-hand side input layer of the model shown below.
+<img src="{{ site.baseurl }}/assets/img/Algorithm.png">
+The following pseudo code explains the algorithm.
+<img src="{{ site.baseurl }}/assets/img/AlgorithmCode.png">
 
 ### 2.3 Training model
 30,000 lines of movie conversations were used to train the designed model while it required 100 epochs to reach categorical cross-entropy loss of 0.0394, at the cost of 600 s/epoch running on the FloydHub platform (a public platform for data scientist, https://www.floydhub.com/ ).
@@ -60,6 +60,7 @@ If some libraries are missing in the environment, use :
 	pip install xxx # xxx for package name
 
 Then we can start chatting with the first chat bot.
+<img src="{{ site.baseurl }}/assets/img/chatbotpy.png">
 
 ### 2.5 Local website
 As suggested in the task statement, a simple web page can make the application more interactive and a python based website is created dedicate to the chat bot.
@@ -78,12 +79,14 @@ As talked in 2.4, we should ensure my_model_weights.h5 file exists in the same f
 
 Repeat the steps in 2.4 to execute the python file (chatbot.py). 
 
-In the console, we can see that our local web application started and the port have already connected.
+In the console, we can see that our local web application started and the port have already connected:
+<img src="{{ site.baseurl }}/assets/img/chatbotweb1.png">
 
 Open the browser and search :
 http://127.0.0.1:5000/
 
-The application web page should be opened. Then enter a sentence in text box and click the button “Get response!” to start chatting. 
+The application web page should be opened. Then enter a sentence in text box and click the button “Get response!” to start chatting. The reply will be shown below.
+<img src="{{ site.baseurl }}/assets/img/chatbotweb2.png">
 
 ## 3. Chat bot II (using python library)
 As we know, the Chat bot I (seq2seq using keras) is a possible realization of a Chat bot. However, the responds are sometimes ambiguous that are not much like a human sentence. It is kind of making up sentences following statistical rules and need more linguistic improvement. 
@@ -96,6 +99,8 @@ Find the resources here: https://github.com/songchangyi/ChatbotVS/tree/master/3_
 
 Here the pre-trained model is unnecessary.
 
+As shown below, it is possible to make chat bot in very short lines of code.
+<img src="{{ site.baseurl }}/assets/img/chatterbot.png">
 The way to integrate web part and chat part is the same as 2.6.
 ## 4. Chat bot III (integrated with Google API)
 By using different algorithm, it is not so difficult to create a text based chat bot, but more API functions can make the robot much interesting. Here we can see how a Chat bot integrated Google API attract many fans on Wechat.
@@ -112,7 +117,12 @@ Based on Google's image recognition API, text analysis API and translation API, 
 Use Jupyter Notebook to run:
 https://github.com/songchangyi/ChatbotVS/tree/master/4_chatbot_googleAPI
 ### 4.2 Test
-See project README file.
+Test results from Wechat :
+<img src="{{ site.baseurl }}/assets/img/chatbotGoogle1.jpg">
+<img src="{{ site.baseurl }}/assets/img/chatbotGoogle2.jpgg">
+<img src="{{ site.baseurl }}/assets/img/chatbotGoogle3.jpg">
+<img src="{{ site.baseurl }}/assets/img/chatbotGoogle4.jpg">
+Try to talk with it by scanning the QR-Code.
 
 ## 5. Bibliographies
 1. Data source : Cornell Movie Corpus:
