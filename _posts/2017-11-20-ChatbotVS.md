@@ -32,8 +32,11 @@ https://www.kaggle.com/Cornell-University/movie-dialog-corpus
 The architecture presented here assumes the same prior distributions for input and output words. Therefore, it shares the embedding layer (Glove pre-trained word embedding) between the encoding and decoding processes through the adoption of a new model. 
 To improve the context sensitivity, the thought vector (i.e. the encoder output) encodes the last two utterances of the conversation up to the current point. To avoid forgetting the context during the answer generation, the thought vector is concatenated to a dense vector that encodes the incomplete answer generated up to the current point. The resulting vector is provided to dense layers that predict the current token of the answer. 
 The algorithm iterates by feeding back the predicted token to the right-hand side input layer of the model shown below.
+
 <img src="{{ site.baseurl }}/assets/img/Algorithm.png">
+
 The following pseudo code explains the algorithm.
+
 <img src="{{ site.baseurl }}/assets/img/AlgorithmCode.png">
 
 ### 2.3 Training model
@@ -100,7 +103,9 @@ Find the resources here: https://github.com/songchangyi/ChatbotVS/tree/master/3_
 Here the pre-trained model is unnecessary.
 
 As shown below, it is possible to make chat bot in very short lines of code.
+
 <img src="{{ site.baseurl }}/assets/img/chatterbot.png">
+
 The way to integrate web part and chat part is the same as 2.6.
 ## 4. Chat bot III (integrated with Google API)
 By using different algorithm, it is not so difficult to create a text based chat bot, but more API functions can make the robot much interesting. Here we can see how a Chat bot integrated Google API attract many fans on Wechat.
@@ -118,10 +123,11 @@ Use Jupyter Notebook to run:
 https://github.com/songchangyi/ChatbotVS/tree/master/4_chatbot_googleAPI
 ### 4.2 Test
 Test results from Wechat :
+
 <img src="{{ site.baseurl }}/assets/img/chatbotGoogle1.jpg">
-<img src="{{ site.baseurl }}/assets/img/chatbotGoogle2.jpgg">
+<img src="{{ site.baseurl }}/assets/img/chatbotGoogle2.jpg">
 <img src="{{ site.baseurl }}/assets/img/chatbotGoogle3.jpg">
-<img src="{{ site.baseurl }}/assets/img/chatbotGoogle4.jpg">
+<img width="500" src="{{ site.baseurl }}/assets/img/chatbotGoogle4.jpg">
 Try to talk with it by scanning the QR-Code.
 
 ## 5. Bibliographies
