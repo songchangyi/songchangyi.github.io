@@ -33,15 +33,17 @@ The architecture presented here assumes the same prior distributions for input a
 To improve the context sensitivity, the thought vector (i.e. the encoder output) encodes the last two utterances of the conversation up to the current point. To avoid forgetting the context during the answer generation, the thought vector is concatenated to a dense vector that encodes the incomplete answer generated up to the current point. The resulting vector is provided to dense layers that predict the current token of the answer. 
 The algorithm iterates by feeding back the predicted token to the right-hand side input layer of the model shown below.
 
-<img src="{{ site.baseurl }}/assets/img/Algorithm.png">
+<img width="600" src="{{ site.baseurl }}/assets/img/Algorithm.png">
 
 The following pseudo code explains the algorithm.
 
-<img src="{{ site.baseurl }}/assets/img/AlgorithmCode.png">
+<img width="700" src="{{ site.baseurl }}/assets/img/AlgorithmCode.png">
 
 ### 2.3 Training model
 30,000 lines of movie conversations were used to train the designed model while it required 100 epochs to reach categorical cross-entropy loss of 0.0394, at the cost of 600 s/epoch running on the FloydHub platform (a public platform for data scientist, https://www.floydhub.com/ ).
 
+Here shows the result of the training logs :
+<img width="450" src="{{ site.baseurl }}/assets/img/Training model.png">
 It is also suggested to use Glove pre-trained model, which is available on line (https://nlp.stanford.edu/projects/glove/). This algorithm applies transfer learning which is fine-tuned during the training by using a pre-trained word embedding. This transfer-learning model will help us to obtain a better performance.[2]
 
 Find the final model here:
@@ -83,13 +85,13 @@ As talked in 2.4, we should ensure my_model_weights.h5 file exists in the same f
 Repeat the steps in 2.4 to execute the python file (chatbot.py). 
 
 In the console, we can see that our local web application started and the port have already connected:
-<img src="{{ site.baseurl }}/assets/img/chatbotweb1.png">
+<img width="550" src="{{ site.baseurl }}/assets/img/chatbotweb1.png">
 
 Open the browser and search :
 http://127.0.0.1:5000/
 
 The application web page should be opened. Then enter a sentence in text box and click the button “Get response!” to start chatting. The reply will be shown below.
-<img src="{{ site.baseurl }}/assets/img/chatbotweb2.png">
+<img width="550" src="{{ site.baseurl }}/assets/img/chatbotweb2.png">
 
 ## 3. Chat bot II (using python library)
 As we know, the Chat bot I (seq2seq using keras) is a possible realization of a Chat bot. However, the responds are sometimes ambiguous that are not much like a human sentence. It is kind of making up sentences following statistical rules and need more linguistic improvement. 
@@ -104,7 +106,7 @@ Here the pre-trained model is unnecessary.
 
 As shown below, it is possible to make chat bot in very short lines of code.
 
-<img src="{{ site.baseurl }}/assets/img/chatterbot.png">
+<img width="550" src="{{ site.baseurl }}/assets/img/chatterbot.png">
 
 The way to integrate web part and chat part is the same as 2.6.
 ## 4. Chat bot III (integrated with Google API)
@@ -124,10 +126,10 @@ https://github.com/songchangyi/ChatbotVS/tree/master/4_chatbot_googleAPI
 ### 4.2 Test
 Test results from Wechat :
 
-<img src="{{ site.baseurl }}/assets/img/chatbotGoogle1.jpg">
-<img src="{{ site.baseurl }}/assets/img/chatbotGoogle2.jpg">
-<img src="{{ site.baseurl }}/assets/img/chatbotGoogle3.jpg">
-<img width="500" src="{{ site.baseurl }}/assets/img/chatbotGoogle4.jpg">
+<img width="400" src="{{ site.baseurl }}/assets/img/chatbotGoogle1.jpg">
+<img width="400" src="{{ site.baseurl }}/assets/img/chatbotGoogle2.jpg">
+<img width="400" src="{{ site.baseurl }}/assets/img/chatbotGoogle3.jpg">
+<img width="400" src="{{ site.baseurl }}/assets/img/chatbotGoogle4.jpg">
 Try to talk with it by scanning the QR-Code.
 
 ## 5. Bibliographies
