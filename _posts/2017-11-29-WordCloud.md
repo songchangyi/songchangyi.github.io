@@ -10,7 +10,7 @@ tags: [Blog, NLP]
 
 以下是我在博客园搜索时找到的一个简短有效的python3代码：(原文链接：http://www.cnblogs.com/franklv/p/6995150.html)
 
-'''
+```
 #encoding=gbk #中文编码
 
 import jieba.analyse
@@ -41,7 +41,7 @@ plt.imshow(wc.recolor(color_func=image_color))
 plt.axis("off")
 plt.show()
 wc.to_file('dream.png')
-'''
+```
 
 这里是我的输出结果。好像还可以哈：
 <img width="550" src="{{ site.baseurl }}/assets/img/dream.png">
