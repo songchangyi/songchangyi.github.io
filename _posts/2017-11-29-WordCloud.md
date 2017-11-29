@@ -1,6 +1,14 @@
+---
+layout: post
+title: 学习笔记-Generate Word Cloud using Python
+date: 2017-11-29
+img: HuazhuWords.jpeg 
+tags: [Blog, NLP]
+---
+
 之前在浏览一些数据分析的文章的时候，发现有一个叫WordCloud(词云)的东西很有意思。
 
-以下是我在博客园搜索时找到的一个简短有效的python3代码：
+以下是我在博客园搜索时找到的一个简短有效的python3代码：(原文链接：http://www.cnblogs.com/franklv/p/6995150.html)
 
 '''
 #encoding=gbk #中文编码
@@ -36,7 +44,7 @@ wc.to_file('dream.png')
 '''
 
 这里是我的输出结果。好像还可以哈：
-666
+<img width="550" src="{{ site.baseurl }}/assets/img/dream.png">
 
 最后贴上一个超好的词云制作网站，亲测有效，快去制作你自己的词云吧：
 https://wordart.com/create
