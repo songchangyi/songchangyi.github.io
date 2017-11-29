@@ -44,6 +44,7 @@ wc.to_file('dream.png')
 ```
 
 这里是我的输出结果。好像还可以哈：
+
 <img width="550" src="{{ site.baseurl }}/assets/img/dream.png">
 
 最后贴上一个超好的词云制作网站，亲测有效，快去制作你自己的词云吧：
