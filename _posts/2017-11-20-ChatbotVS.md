@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 我的博文My blog-Chatbot Using Movie Subtitles
+title: 我的博文-电影台词聊天机器人Chatbot
 date: 2017-11-19
 img: post-chatbot.jpg # Add image post (optional)
 tags: [Blog, NLP]
