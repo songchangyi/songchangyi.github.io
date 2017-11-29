@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 学习笔记-Generate Word Cloud using Python
+title: 学习笔记-Python生成词云WordCloud
 date: 2017-11-29
 img: HuazhuWords.jpeg 
 tags: [Blog, NLP]
