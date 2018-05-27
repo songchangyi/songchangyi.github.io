@@ -12,18 +12,18 @@ author: Changyi SONG
 
 也是机缘巧合，本来博主只是想试一试能否用基础爬虫去抓取里面的内容并加入我的聊天机器人里面。以便之后搜索二手用品的时候方便一点（手动输入了关键词算一次搜索，按时间排序算第二次搜索，排序了发现相关性不高又是第三次搜索。。。）。于是兴冲冲的导入了python里面的Beautifulsoup和urllib等包，尝试静态抓取并修改搜索关键字kw。
 
-'''
+```
 from bs4 import BeautifulSoup
 import urllib
-'''
+```
 
 右键检查页面以后发现我要的关键词kw在一个span标签里面，类型是emfont，于是有了如下代码：
 
-'''
+```
 html = urllib.request.urlopen('http://www.xineurope.com/search.php?mod=forum&searchid=935&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=').read()
 soup = BeautifulSoup(html, "lxml")
 keys = soup.find_all('span', {'class': 'emfont'})
-'''
+```
 
 但是5秒钟后我懵逼了。那个searchid是个什么鬼？935， 嗯？是不是url弄错了，于是又搜了一次。很惊奇的发现这次的searchid变成了936。
 
@@ -34,18 +34,18 @@ keys = soup.find_all('span', {'class': 'emfont'})
 
 但转念一想，诶，看看别人的搜索结果，通过数据分析，了解一下大家关注的潮流，貌似也是不错的。于是开始改代码：
 
-'''
+```
 html = urllib.request.urlopen('http://www.xineurope.com/search.php?mod=forum&searchid=800&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=').read()
 soup = BeautifulSoup(html, "lxml")
 keys = soup.find_all('span', {'class': 'emfont'})
 for j in keys:
 	keyWord = j.get_text()
 	print(keyWord)
-'''
+```
 
 试了一下，嗯不错，还真能看到searchid为800的那位兄台的搜索结果。不过这样的代码太容易出错了，程序员不能给自己挖坑嘛，于是加入异常检测和空值处理，有了如下代码：
 
-'''
+```
 from bs4 import BeautifulSoup
 import urllib, re, time, multiprocessing
 
@@ -73,11 +73,11 @@ def scraping_xineurope(startId, endId):
     return key_list
 	
 key_list = scraping_xineurope(1,50)
-'''
+```
 
 这样子我们就可以通过startId和endId两个参数来控制我们想爬取searchid为多少号到多少号之间的结果了。很爽的是，搜索历史记录没有两次搜索必须间隔15秒的限制。这里我以1-50为例，看了看大家前50位的都搜了些啥：
 
-'''
+```
 1 campus langue
 2 里昂 法语
 3 lafayette
@@ -99,7 +99,7 @@ key_list = scraping_xineurope(1,50)
 19 巴黎中央理工
 20 斯特拉斯堡
 ...
-'''
+```
 
 这里我尝试过多进程爬取。由于貌似本来搜索的结果就没有那么多，也就几百上千个，用多进程爬取反而造成服务器压力大，响应慢。有兴趣的可以自行尝试。
 
@@ -108,7 +108,7 @@ key_list = scraping_xineurope(1,50)
 
 思路就是用jieba这个包进行中文分词，然后取出前k个高频词，然后加一张图片按图上的样式画出来就好。完整生成代码如下：
 
-'''
+```
 #encoding=gbk #中文编码
 
 import jieba.analyse
@@ -139,7 +139,7 @@ plt.imshow(wc.recolor(color_func=image_color))
 plt.axis("off")
 plt.show()
 wc.to_file('res.png')
-'''
+```
 
 这样我们就把刚才的爬取结果画出来并保存到名为res的一张png图片里了，就是这样：
 
