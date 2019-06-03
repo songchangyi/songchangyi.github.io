@@ -2,7 +2,7 @@
 layout: post
 title: 【Scikit-learn 1st workshop 2019】- 1 - 目录 
 date: 2019-06-03
-img: post-ws-sklearn-munu.jpg
+img: post-ws-sklearn-menu.jpg
 tags: [Blog, Workshop]
 author: Changyi SONG 
 ---
