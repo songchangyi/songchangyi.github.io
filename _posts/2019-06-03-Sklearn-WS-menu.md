@@ -1,6 +1,6 @@
-﻿---
+---
 layout: post
-title: 我的博文-电影台词聊天机器人Chatbot
+title: 【Scikit-learn 1st workshop 2019】- 1 - 目录 
 date: 2019-06-03
 img: post-ws-sklearn-munu.jpg
 tags: [Blog, Workshop]
